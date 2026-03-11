@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+    background-color: #1f3c58;
+    color: white;
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+}
+
+#course-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+nav {
+    margin-top: 1rem;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 0.8rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+    justify-content: center;
+}
+
+nav a:hover {
+    color: #00c2ff;
+}
+
+/* =========================
+   MAIN TITLE
+========================= */
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 2rem 0;
+    font-weight: 500;
+    position: relative;
+}
+
+/* =========================
+   MAIN LAYOUT (2 CARDS SIDE BY SIDE)
+========================= */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+/* =========================
+   CARD STYLE
+========================= */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    max-width: 900px;
+    justify-content: space-between;
+
+
+}
+
+/* Card Heading */
+.card h3 {
+    background-color: #1f3c58;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 8px 8px 0 0;
+    margin: -1.5rem -1.5rem 1rem -1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+h2 {
+    background-color: #1f3c58;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 8px 8px 0 0;
+    margin: -1.5rem -1.5rem 1rem -1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 90%;
+}
+
+/* Images inside cards */
+.card img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+}
+
+/* Paragraph spacing */
+.card p {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+/* Figcaption */
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    margin-top: 3rem;
+    background-color: #1f3c58;
+    color: white;
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 0.9rem;
+}
+
+#last-modified {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    color: #ffd369;
+}
+
+/* =========================
+   RESPONSIVE (STACK CARDS ON SMALL SCREENS)
+========================= */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
