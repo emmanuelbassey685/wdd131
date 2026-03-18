@@ -5,9 +5,9 @@
 }
 
 header {
+    display: flex;
     background-color: #333;
     padding: 10px 30px;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
@@ -28,7 +28,7 @@ h1 {
 }
 
 .navigation a {
-    display: grid;   
+    display: flex;   
     text-align: center;
     text-decoration: none;
     justify-content: space-between;
