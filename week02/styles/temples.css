@@ -22,13 +22,13 @@ h1 {
 }
 
 .navigation {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     list-style: none;
 }
 
 .navigation a {
-    display: flexbox;   
+    display: flex;   
     text-align: center;
     text-decoration: none;
     justify-content: space-between;
@@ -97,5 +97,5 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }

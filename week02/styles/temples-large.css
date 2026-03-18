@@ -5,11 +5,11 @@
 	}
 
 	.navigation {
-        display: flexbox;
+        display: flex;
 		flex-direction: row;
 	}
     .navigation a {
-		display: flexbox;
+		display: flex;
 		flex: 1 1 100%;
 	}
 
@@ -35,8 +35,8 @@
     }
     
     main .temple-grid img {
-        max-width: 400px;
-        height: auto;
+        max-width: 350px;
+        height: 150px;
         
     }
 
