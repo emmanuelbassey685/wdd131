@@ -22,13 +22,13 @@ h1 {
 }
 
 .navigation {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     list-style: none;
 }
 
 .navigation a {
-    display: flex;   
+    display: flexbox;   
     text-align: center;
     text-decoration: none;
     justify-content: space-between;

@@ -5,11 +5,11 @@
 	}
 
 	.navigation {
-        display: flex;
+        display: flexbox;
 		flex-direction: row;
 	}
     .navigation a {
-		display: flex;
+		display: flexbox;
 		flex: 1 1 100%;
 	}
 
