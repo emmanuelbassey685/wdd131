@@ -24,9 +24,11 @@ header {
 }
 
 h1 {
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
 }
+
 @media (max-width: 762px) {
     /* Data section styles */
     .hero img {
@@ -35,7 +37,7 @@ h1 {
         object-fit: cover;
     }
 
-    .data {
+    .data::after {
         display: flex;
         flex-direction: column;
         background-color: rgba(255, 255, 255, 0.9); 
@@ -57,7 +59,7 @@ h1 {
     }
 
     /* Weather section styles */
-    .weather {
+    .weather::after {
         display: flex;
         flex-direction: column;
         background-color: rgba(255, 255, 255, 0.9); 
