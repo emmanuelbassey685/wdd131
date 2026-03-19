@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAGOS</title>
+    <meta name="author" content="Bassey, Emmanuel">
+    <meta name="description"
+        content="WDD131-Dynamic Web Fundamentals | Bassey Emmanuel | Home Page Development.">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>NIGERIA</h1>
+    </header>
+    <main>
+        <!-- Hero Image Section -->
+        <div class="hero">
+            <picture>
+                <!-- WebP image for desktop -->
+                <source srcset="images/obudu-large.webp" media="(min-width: 1000px)">
+                <!-- WebP image for mobile -->
+                <source srcset="images/obudu-medium.webp" media="(min-width: 500px)">
+                <!-- Fallback image for browsers that do not support WebP -->
+                <img src="images/obudu-small.webp" alt="Obudu Cattle Ranch, Nigeria" class="hero-image">
+            </picture>
+        </div>
+
+
+                <!-- Data Section -->
+        <div class="data">
+            <section class="data-head">
+                <h2>Data</h2> 
+                <!-- Data details -->
+            </section>
+            <div class="weather-list">
+                <div class="first">
+                    <p>Area: </p>
+                    <p>Population: </p>
+                    <p>Capital: </p>
+                    <p>Languages: </p>
+                    <p>Currency: </p>
+                    <p>Time Zone: </p>
+                    <p>Calling Code: </p>
+                    <p>Internet TLD: </p>
+                </div>
+                <div class="second">
+                    <p>923,769 sq km</p>
+                    <p>230,000,000</p>
+                    <p>Abuja</p>
+                    <p>English</p>
+                    <p>Naira(₦)</p>
+                    <p>UTC+01:00 (WAT)</p>
+                    <p>+234</p>
+                    <p> ng </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weather Section -->
+        <div class="weather">
+            <section class="weather-head">
+                <h2>Weather</h2> 
+                <span><img src="images/weather-icon.png" alt="Weather Icon"></span>
+                <!-- Weather details -->
+            </section>
+            <div class="weather-list">
+                <div class="first">
+                    <p>Temperature:</p>
+                    <p>Conditions:</p>
+                    <p>Wind:</p>
+                    <p>Windchill:</p>
+                </div>
+                <div class="second">
+                    <p>25°C</p>
+                    <p>Partly Cloudy</p>
+                    <p>10km/h</p>
+                    <p id="windchill"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Include the current year and last modified date using JavaScript -->
+        <p>
+            &copy; <span id="currentyear"></span> ❖  Bassey, Emmanuel  ❖ Nigeria
+        </p>
+        <p id="lastModification"></p>
+    </footer>
+</body>
+</html>
