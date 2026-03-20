@@ -6,8 +6,8 @@
 
 header {
     display: flex;
-    background-color: #333;
-    padding: 10px 30px;
+    background-color: indigo;
+    padding: 30px 30px;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
@@ -39,13 +39,14 @@ h1 {
 }
 
 .navigation a:hover {
+    display: flex;
 	background-color: #333;
 	color: #fff;
 	font-weight: 700;
 }
 
 .open a {
-	display: block;
+	display: flex;
 }
 
 .active::before { 
@@ -74,6 +75,7 @@ main {
 }
 
 .temple-grid img {
+    display: flex;
     width: 90%;
     height: auto;
     border-radius: 2px;
@@ -81,6 +83,7 @@ main {
 }   
 
 figcaption {
+    display: flex;
     text-align: center;
     font-style: italic;
     font-size: 0.85rem;
@@ -88,7 +91,7 @@ figcaption {
 }
 
 footer {
-    background-color: #333;
+    background-color: indigo;
     color: white;
     text-align: center;
     padding: 1rem 0;
