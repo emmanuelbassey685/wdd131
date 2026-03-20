@@ -7,8 +7,8 @@
 header {
     display: flex;
     background-color: indigo;
-    padding: 30px 30px;
-    justify-content: space-around;
+    padding: 30px 80px;
+    justify-content: space-between;
     align-items: center;
     justify-items: center;
 }
@@ -23,12 +23,13 @@ h1 {
 
 .navigation {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
     list-style: none;
 }
 
-.navigation a {
-    display: flex;   
+.navigation a {   
     text-align: center;
     text-decoration: none;
     justify-content: space-between;
@@ -39,14 +40,13 @@ h1 {
 }
 
 .navigation a:hover {
-    display: flex;
 	background-color: #333;
 	color: #fff;
 	font-weight: 700;
 }
 
 .open a {
-	display: flex;
+	display: block;
 }
 
 .active::before { 
@@ -75,7 +75,6 @@ main {
 }
 
 .temple-grid img {
-    display: flex;
     width: 90%;
     height: auto;
     border-radius: 2px;
@@ -83,7 +82,6 @@ main {
 }   
 
 figcaption {
-    display: flex;
     text-align: center;
     font-style: italic;
     font-size: 0.85rem;
