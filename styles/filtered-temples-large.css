@@ -1,0 +1,36 @@
+/*Larger View Css*/
+@media (min-width: 590px) {
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+        grid-column: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+		flex-direction: row;
+        width: auto;
+	}
+    .navigation a {
+		display: block;
+        padding: 1rem;
+        flex: 1 1 100%;
+	}
+
+    main {
+        max-width: 1200px;
+        justify-content: center;    
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    main .temple-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px; 
+        justify-content: center;
+    }
+}
