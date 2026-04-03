@@ -48,13 +48,6 @@ main {
     min-width: 400px;
 }
 
-footer {
-    padding: 1rem;
-    color: white;
-    background-color: var(--back_color1);
-    text-align: center;
-}
-
 label {
     font-size: 1rem;
     font-weight: 800;
@@ -73,10 +66,6 @@ input[type=checkbox] {
     font-size: 1.1rem;
 }
 
-/* input {
-    font-weight: 100;
-    font-size: 3rem;
-} */
 #feature1, #feature2 {
     font-weight: 100;
 }
@@ -85,7 +74,6 @@ header, main, footer {
 }
 
 textarea {
-    /* background-color: red; */
     background-color: white;
     width: 100%;
     font-family: Roboto, sans-serif;
@@ -119,10 +107,6 @@ textarea {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-
-    /* For Debug */
-    /* background-color: aqua;
-    border: 5px solid purple; */
 }
 
 .thanks {
@@ -147,16 +131,15 @@ textarea {
     margin-bottom: 1rem;
 }
 
-/* .install label {
-    margin-bottom: 5;
-} */
-
 input[type=text] {
     background-color: white;
     /* background-color: #efac3e; */
     font-size: 1.2rem;
 }
 
-/* input [type="checkbox"] {
-    background-color: blue;
-} */
+footer {
+    padding: 1rem;
+    color: white;
+    background-color: var(--back_color1);
+    text-align: center;
+}
