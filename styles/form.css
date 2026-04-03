@@ -22,6 +22,7 @@ h1 {
 
 h2 {
     font-size: 1rem;
+    font-weight: 800;
     text-align: left;
     margin-top: 1rem;
     margin-bottom: .2rem;
@@ -63,7 +64,7 @@ input[type=checkbox] {
 }
 
 .features label {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 #feature1, #feature2 {
@@ -93,12 +94,13 @@ textarea {
 .features p {
     font-style: italic;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-bottom: 0.2rem;
 }
 
 .textreview {
     margin-top: 1rem;
+    font-size: 0.9rem;
 }
 
 /* https://stackoverflow.com/questions/463785/place-radio-button-label-above-using-css */
@@ -114,16 +116,16 @@ textarea {
 }
 
 #submit {
-    font-size: 1.2rem;
-    font-weight: 950;
+    font-size: 1.9rem;
+    font-weight: 850;
     background-color: var(--accent_color3);
     border-width: 1px;
     margin: 1rem auto;
 }
 
-#product-Name, #installDate, #review, #name, #submit {
-    font-size: 1.2rem;
-    padding: .2rem;
+#productName, #installDate, #review, #name, #submit {
+    font-size: 1rem;
+    padding: .5rem;
     width: 100%;
 }
 

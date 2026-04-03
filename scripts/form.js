@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { id: 'jj-1969', name: "Mercedes-Benz Products", avg_rating: 5.0 }
     ];
 
-    const selectElement = document.getElementById('product-Name');
+    const selectElement = document.getElementById('productName');
     if (selectElement) {
         products.forEach(product => {
             const option = document.createElement('option');
