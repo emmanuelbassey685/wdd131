@@ -114,15 +114,15 @@ textarea {
 }
 
 #submit {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     background-color: var(--accent_color3);
     border-width: 1px;
     margin: 1rem auto;
 }
 
-#prodName, #installDate, #review, #name, #submit {
-    font-size: 1.2rem;
+#product-Name, #installDate, #review, #name, #submit {
+    font-size: 1.3rem;
     padding: .2rem;
     width: 100%;
 }
