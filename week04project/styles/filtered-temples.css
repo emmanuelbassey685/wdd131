@@ -23,6 +23,7 @@ h1 {
 }
 
 #menu {
+    display: flex;
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
@@ -38,6 +39,7 @@ h1 {
 }
 
 .navigation {
+    display: flex;
     justify-content: center;
     gap: 20px;
     list-style: none;
@@ -45,6 +47,12 @@ h1 {
 }
 .navigation ul {
 	list-style-type: none;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .navigation a {
@@ -58,6 +66,7 @@ h1 {
     justify-content: center;
     gap: 20px;
 }
+
 .navigation a:hover {
 	background-color: #bbb;
     transition: all 5ms ease-in-out;
@@ -72,13 +81,6 @@ h1 {
 #layout.show {
     /* display: flex defined in header tag */
     flex-direction: column;
-}
-
-#menu {
-    display: flex;
-	font-size: 1.5rem;
-    text-decoration: none;
-    padding: .5rem .75rem;
 }
 
 
