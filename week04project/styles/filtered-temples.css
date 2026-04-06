@@ -1,5 +1,3 @@
-
-/*Mobile Css*/
 * {
     margin: 0;
     padding: 0;
@@ -33,20 +31,18 @@ h1 {
 	right: 1rem;
 }
 
-#menu::before {
-	content: "☰";
-    color: white;
-}
-
 .navigation {
     display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     justify-content: center;
     gap: 20px;
-    list-style: none;
 	color: #fff;
 }
+
 .navigation ul {
-	list-style-type: none;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -57,25 +53,17 @@ h1 {
 
 .navigation a {
 	display: block;
-    list-style: none;
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
     font-size: 20px;
 	color: #fff;
-    justify-content: center;
-    gap: 20px;
+    transition: all 0.3s ease; /* Smoother transition than 5ms */
 }
 
 .navigation a:hover {
 	background-color: #bbb;
-    transition: all 5ms ease-in-out;
 	font-weight: 700;
-}
-
-#layout {
-    /* display: flex defined in header tag */
-    flex-direction: row;
 }
 
 #layout.show {
