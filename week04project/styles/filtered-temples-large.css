@@ -1,5 +1,17 @@
 /*Larger View Css*/
 @media (min-width: 590px) {
+     header {
+		display: flex;
+		/* flex-direction: defined in #layout ID; */
+		align-items: flex-end;
+	    justify-content: space-between;
+	}
+	
+	#layout {
+		/* display: flex defined in header tag */
+		flex-direction: row;
+	}
+    
     #menu {
 		display: none; /* hide hamburger button */
 	}

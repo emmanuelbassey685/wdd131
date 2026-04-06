@@ -38,15 +38,17 @@ h1 {
 }
 
 .navigation {
-    display: flex;
     justify-content: center;
     gap: 20px;
     list-style: none;
 	color: #fff;
 }
+.navigation ul {
+	list-style-type: none;
+}
 
 .navigation a {
-	display: flex;
+	display: block;
     list-style: none;
 	padding: 1rem;
 	text-align: center;
@@ -61,6 +63,24 @@ h1 {
     transition: all 5ms ease-in-out;
 	font-weight: 700;
 }
+
+#layout {
+    /* display: flex defined in header tag */
+    flex-direction: row;
+}
+
+#layout.show {
+    /* display: flex defined in header tag */
+    flex-direction: column;
+}
+
+#menu {
+    display: flex;
+	font-size: 1.5rem;
+    text-decoration: none;
+    padding: .5rem .75rem;
+}
+
 
 /* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
