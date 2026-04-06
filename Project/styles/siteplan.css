@@ -27,10 +27,19 @@ section {
 
 .color-box {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+.color-box.dark {
+    background-color: #333;
+}
+
+.color-box.light {
+    background-color: #fff;
 }
 
 .wireframe-container {
