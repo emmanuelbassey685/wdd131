@@ -1,7 +1,9 @@
-// Get the current year
-const year = document.querySelector("#current-year");
-year.textContent = new Date().getFullYear();
+let yr = new Date().getFullYear();
+let lastModified = document.lastModified;
+let author = "Bassey Emmanuel";
+let place = "Lagos, Nigeria";
 
-// Get the last modified date
-const lastModified = document.querySelector("#last-modified");
-lastModified.textContent = "Last Modified: " + document.lastModified;
+
+// backticks allow us to insert variables into the output.
+document.getElementById("copywrite").innerHTML = `\u00A9 ${yr} | ${author} | ${place}`;
+document.getElementById("modified").innerHTML = `Last Modified: ${lastModified}`;
