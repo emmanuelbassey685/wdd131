@@ -38,11 +38,12 @@ h1 {
 }
 
 .navigation {
+    display: flex;
 	color: #fff;
 }
 
 .navigation a {
-	display: block;
+	display: flex;
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
